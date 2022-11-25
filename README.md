@@ -1,9 +1,10 @@
 # python_pandas application script
 Pandas Datareader using python call Yahoo finance API to collect recent one month stock price data
 
-$ ./yahoofinance_PandasDatareader.py nvda 
+$ ./yahoofinance_PandasDatareader.py nvda
+
                   High         Low        Open       Close    Volume   Adj Close
-Date                                                                            
+Date
 2022-10-24  127.099998  120.639999  125.080002  125.989998  51745700  125.989998
 2022-10-25  133.000000  126.639999  126.940002  132.610001  50548200  132.610001
 2022-10-26  133.880005  127.080002  128.690002  128.960007  53295300  128.960007
