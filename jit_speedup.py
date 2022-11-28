@@ -44,7 +44,7 @@ my_array = my_array[:1] + ['.'] + my_array[1:]
 big_string = "".join(my_array)
 #print ("Here is a big string: %s" % big_string)
 etime = time.time() - stime
-print('Without optimization.  Caculate 50000 digits of PI in Python spent time :{} seconds'.format(etime))
+print('Without optimization.  Calculate 50000 digits of PI in Python spent time :{} seconds'.format(etime))
 
 
 stime = time.time()
@@ -57,4 +57,4 @@ my_array = my_array[:1] + ['.'] + my_array[1:]
 big_string = "".join(my_array)
 #print ("Here is a big string: %s" % big_string)
 etime = time.time() - stime
-print('jit optimization.      Caculate 50000 digits of PI in Python spent time :{} seconds'.format(etime))
+print('jit optimization.      Calculate 50000 digits of PI in Python spent time :{} seconds'.format(etime))
